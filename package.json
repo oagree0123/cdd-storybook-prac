@@ -1,0 +1,30 @@
+{
+  "name": "cdd-storybook-prac",
+  "version": "1.0.0",
+  "description": "storybook을 활용한 컴포넌트 주도 개발 연습",
+  "main": "index.js",
+  "author": "oagree0123",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/blocks": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-webpack5": "^7.0.22",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.22"
+  },
+  "dependencies": {
+    "styled-components": "^6.0.0-rc.3"
+  }
+}
