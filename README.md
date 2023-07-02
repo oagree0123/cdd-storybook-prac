@@ -2,7 +2,7 @@
 > storybook을 활용한 컴포넌트 주도 개발 연습
 
 ## 개발환경
-- yarn
+- pnpm
 - React
 - Styled-componenets
 
@@ -10,6 +10,9 @@
 
 ```sh
 $ npm i otory-book
+```
+```sh
+$ pnpm add otory-book
 ```
 ```sh
 $ yarn add otory-book
@@ -24,7 +27,7 @@ import { Button } from "./components/Button/Button.jsx";
 
 const App = () => {
   return (
-    <Button primary='primary' size='medium' label='Button' />
+    <Button primary='primary' size='medium'>Button</Button>
   )
 }
 ```

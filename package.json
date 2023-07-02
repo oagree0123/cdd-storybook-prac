@@ -1,6 +1,6 @@
 {
   "name": "otory-book",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "storybook을 활용한 컴포넌트 주도 개발 연습",
   "author": "oagree0123",
   "license": "MIT",
