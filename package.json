@@ -12,7 +12,7 @@
     "build": "npx rimraf dist && rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepack": "yarn run build"
+    "prepack": "pnpm run build"
   },
   "main": "dist/esm/index.js",
   "type": "module",
@@ -26,7 +26,9 @@
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
     "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-typescript": "^11.1.2",
     "@storybook/addon-essentials": "^7.0.22",
     "@storybook/addon-interactions": "^7.0.22",
     "@storybook/addon-links": "^7.0.22",
@@ -34,13 +36,19 @@
     "@storybook/react": "^7.0.22",
     "@storybook/react-webpack5": "^7.0.22",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
     "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.25.2",
-    "storybook": "^7.0.22"
+    "storybook": "^7.0.22",
+    "styled-components": "6.0.0-rc.3",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
-    "rimraf": "^5.0.1",
-    "styled-components": "^6.0.0-rc.3"
+    "rimraf": "^5.0.1"
   },
   "peerDependencies": {
     "react": "^18.2.0",

@@ -12,21 +12,21 @@ export default {
 export const Primary = {
   args: {
     primary: 'primary',
-    label: 'Primary',
+    children: 'Primary',
   },
 };
 
 export const Secondary = {
   args: {
     primary: 'secondary',
-    label: 'Secondary',
+    children: 'Secondary',
   },
 };
 
 export const Outlined = {
   args: {
     primary: 'outlined',
-    label: 'Outlined',
+    children: 'Outlined',
   },
 };
 
@@ -34,17 +34,20 @@ export const Outlined = {
 export const Large = {
   args: {
     size: 'large',
+    children: "Large"
   },
 };
 
 export const Medium = {
   args: {
     size: 'medium',
+    children: "Medium"
   },
 };
 
 export const Small = {
   args: {
     size: 'small',
+    children: "Small"
   },
 };
