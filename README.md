@@ -23,7 +23,7 @@ $ yarn add otory-book
 ### Serving the app
 
 ```jsx
-import { Button } from "./components/Button/Button.jsx";
+import { Button } from "./components/Button/Button";
 
 const App = () => {
   return (
