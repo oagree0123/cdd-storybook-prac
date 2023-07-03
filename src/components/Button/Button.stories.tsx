@@ -1,53 +1,55 @@
-import { Button } from './Button';
+import type { Meta, StoryObj } from "@storybook/react";
+import Button from "./Button";
 
-export default {
-  title: 'Components/Button',
+const meta: Meta = {
+  title: "Components/Button",
   component: Button,
-  tags: ['autodocs'],
-  argTypes: {
-    
+  tags: ["autodocs"],
+  argTypes: {},
+};
+
+export default meta;
+
+type Story = StoryObj<typeof Button>;
+
+export const Primary: Story = {
+  args: {
+    primary: "primary",
+    children: "Primary",
   },
 };
 
-export const Primary = {
+export const Secondary: Story = {
   args: {
-    primary: 'primary',
-    children: 'Primary',
+    primary: "secondary",
+    children: "Secondary",
   },
 };
 
-export const Secondary = {
+export const Outlined: Story = {
   args: {
-    primary: 'secondary',
-    children: 'Secondary',
+    primary: "outlined",
+    children: "Outlined",
   },
 };
 
-export const Outlined = {
+export const Large: Story = {
   args: {
-    primary: 'outlined',
-    children: 'Outlined',
+    size: "large",
+    children: "Large",
   },
 };
 
-
-export const Large = {
+export const Medium: Story = {
   args: {
-    size: 'large',
-    children: "Large"
+    size: "medium",
+    children: "Medium",
   },
 };
 
-export const Medium = {
+export const Small: Story = {
   args: {
-    size: 'medium',
-    children: "Medium"
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    children: "Small"
+    size: "small",
+    children: "Small",
   },
 };
